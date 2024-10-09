@@ -17,6 +17,14 @@ A machine learning-based email spam detection system that classifies incoming em
 5. **Model Evaluation**: Compare multiple models (SVC, KNN, Naive Bayes, Decision Trees, etc.) for accuracy and precision.
 6. **Voting and Stacking**: Apply voting classifiers and stacking methods; select the best-performing model (Multinomial Naive Bayes).
 
+## User Interface
+
+The user interface allows users to input the text of an email to check whether it is classified as spam or not. Users can simply type or paste their email content into the provided input box and click the "Submit" button to receive the classification result. The system will then display whether the email is classified as "Spam" or "Not Spam," along with a confidence score.
+
+![image](https://github.com/user-attachments/assets/49a0b858-2c17-4af7-a4ce-5f53bf250c64)
+
+
+
 ## How to Run
 1. Clone the repository.
 2. Install the required packages: `pip install -r requirements.txt`
